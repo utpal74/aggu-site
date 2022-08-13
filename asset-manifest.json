@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bb5cb87.css",
+    "main.js": "/static/js/main.1358654d.js",
+    "static/js/787.a3428db4.chunk.js": "/static/js/787.a3428db4.chunk.js",
+    "static/media/aggu-smiles.jpg": "/static/media/aggu-smiles.4464cac200818c1a73b7.jpg",
+    "index.html": "/index.html",
+    "main.6bb5cb87.css.map": "/static/css/main.6bb5cb87.css.map",
+    "main.1358654d.js.map": "/static/js/main.1358654d.js.map",
+    "787.a3428db4.chunk.js.map": "/static/js/787.a3428db4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb5cb87.css",
+    "static/js/main.1358654d.js"
+  ]
+}
