@@ -74,8 +74,9 @@ h3 + p {
   font-size: 1em;
   color: var(--clr-main);
   margin-top: 2.5em;
-  width: 450px;
+  width: 420px;
   height: 300px;
+  padding-top: 0;
 }
 
 .post-card-container:hover {
@@ -123,7 +124,7 @@ h3 + p {
 }
 
 .contact-container {
-  width: 500px;
+  width: 400px;
   margin-top: 2em;
   font-size: .75em;
   text-align: center;
