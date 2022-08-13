@@ -1,38 +1,150 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark: #303030;
+  --clr-light: #fff;
+  --clr-main: antiquewhite;
+  --clr-secondary: lightcoral;
+
+  --fw-big: bold;
+
+  --ff-cursive: 'Oleo Script Swash Caps', cursive;
+
+  --fs-body-big: 2em;
+  --fs-body-mid: 1.75em;
+  --fs-body-small: 1.5em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-cursive);
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  font-size: var(--fs-body-big);
+  font-weight: var(--fw-big);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+h3 {
+  margin: 0;
+  color: var(--clr-main);
+}
+
+h3 + p {
+  margin-top: 0;
+  color: var(--clr-secondary);
+}
+
+.container{
+  padding: 1em;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--clr-light);
+  border-radius: 50%;
+}
+
+.name_age {
+  font-size: 1.25em;
+  position: absolute;
+  top: 50px;
+  right: 1em;
+}
+
+.post-card-container {
+  padding: .5em;
+  border-radius: .5em;
+  box-shadow: 0px 0px 3px 6px var(--clr-main);
+  font-size: 1em;
+  color: var(--clr-main);
+  margin-top: 2.5em;
+  width: 450px;
+  height: 300px;
+}
+
+.post-card-container:hover {
+  cursor: pointer;
+}
+
+.p_front, .p_back {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  margin: 2.5rem .7rem;
+}
+
+.p_back {
+  transform: rotateY(180deg);
+  margin: 1rem 0;
+}
+
+.p_front>span {
+  width: 50%;
+  margin: 20px auto;
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#filp-btn {
+  background: inherit;
+  padding: .35em .85em;
+  border: 1px solid var(--clr-light);
+  border-radius: 1em;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: .85em;
+  color: var(--clr-secondary);;
+  margin-top: 1em;
+  margin-left: 130px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#filp-btn:hover, #flip-btn:focus {
+  cursor: pointer;
+}
+
+#filp-btn:active {
+  box-shadow: 0px 0px 1px 1px var(--clr-main);;
+}
+
+.contact-container {
+  width: 500px;
+  margin-top: 2em;
+  font-size: .75em;
+  text-align: center;
+  color: var(--clr-main);;
+}
+
+.email {
+  text-decoration: none;
+  margin-left: 0;
+  color: var(--clr-secondary);;
+}
+
+@media(min-width: 526px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .name_age {
+    right: auto;
+    margin-left: 250px;
   }
 }
