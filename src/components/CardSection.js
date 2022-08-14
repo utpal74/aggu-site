@@ -26,7 +26,7 @@ export default function CardSection() {
     }
 
     return (
-        <div>
+        <div className="card-container">
             <div  className="post-card-container">
                 <div className="post-card" style={style} >
                     <div className="p_front">Hello people, Welcome to my site. <br></br>

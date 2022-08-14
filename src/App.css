@@ -22,6 +22,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -29,7 +30,6 @@ body {
   background: var(--clr-dark);
   color: var(--clr-light);
   font-size: var(--fs-body-big);
-  font-weight: var(--fw-big);
 }
 
 img {
@@ -50,12 +50,14 @@ h3 + p {
 }
 
 .container{
-  padding: 1em;
+  padding: .75em;
+  min-width: 390px;
+  min-height: 100%;
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border: 2px solid var(--clr-light);
   border-radius: 50%;
 }
@@ -64,18 +66,23 @@ h3 + p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: .85em;
+  margin-bottom: 0;
+}
+
+.card-container{
+  padding: 0;
+  margin: 0;
 }
 
 .post-card-container {
-  padding: .5em;
   border-radius: .5em;
   box-shadow: 0px 0px 3px 6px var(--clr-main);
   font-size: 1em;
   color: var(--clr-main);
   margin-top: 2.5em;
-  width: 400px;
-  height: 300px;
-  padding-top: 0;
+  width: 100%;
+  min-height: 300px;
 }
 
 .post-card-container:hover {
@@ -86,12 +93,13 @@ h3 + p {
   position: absolute;
   backface-visibility: hidden;
   width: 100%;
-  margin: 2.5rem .7rem;
+  margin: 1.5rem .75rem;
 }
 
 .p_back {
   transform: rotateY(180deg);
   margin: 1rem 0;
+  padding: 0 .5em;
 }
 
 .p_front>span {
@@ -107,11 +115,12 @@ h3 + p {
   border: 1px solid var(--clr-light);
   border-radius: 1em;
   font-family: inherit;
-  font-weight: inherit;
+  font-weight: var(--fw-big);
   font-size: .85em;
   color: var(--clr-secondary);;
-  margin-top: 1em;
-  margin-left: 130px;
+  margin-top: 1.5em;
+  text-align: center;
+  width: 100%;
 }
 
 #filp-btn:hover, #flip-btn:focus {
@@ -123,7 +132,8 @@ h3 + p {
 }
 
 .contact-container {
-  width: 400px;
+  width: 100%;
+  height: 100%;
   margin-top: 2em;
   font-size: .75em;
   text-align: center;
@@ -134,6 +144,7 @@ h3 + p {
   text-decoration: none;
   margin-left: 0;
   color: var(--clr-secondary);;
+  font-weight: var(--fw-big);
 }
 
 @media(min-width: 526px) {
@@ -143,8 +154,12 @@ h3 + p {
     justify-content: center;
   }
 
-  .name_age {
-    right: auto;
-    margin-left: 250px;
+  .top-seciton {
+    font-size: 1em;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
   }
 }
