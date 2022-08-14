@@ -34,7 +34,7 @@ export default function CardSection() {
                             click the button below to flip it 👇</span>
                     </div>
                     <div className="p_back">
-                        Agastya Utpal Mishra<br></br>
+                        <h3>Agastya Utpal Mishra</h3><br></br>
                         DOB: 16th July 2022<br></br>
                         Place: Hyderabad, India<br></br>
                         <hr></hr>
