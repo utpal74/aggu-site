@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aggu-site/static/css/main.f064a25e.css",
-    "main.js": "/aggu-site/static/js/main.99c8e91a.js",
+    "main.css": "/aggu-site/static/css/main.bd3d5624.css",
+    "main.js": "/aggu-site/static/js/main.1220e99a.js",
     "static/js/787.a3428db4.chunk.js": "/aggu-site/static/js/787.a3428db4.chunk.js",
     "static/media/aggu-smiles.jpg": "/aggu-site/static/media/aggu-smiles.4464cac200818c1a73b7.jpg",
     "index.html": "/aggu-site/index.html",
-    "main.f064a25e.css.map": "/aggu-site/static/css/main.f064a25e.css.map",
-    "main.99c8e91a.js.map": "/aggu-site/static/js/main.99c8e91a.js.map",
+    "main.bd3d5624.css.map": "/aggu-site/static/css/main.bd3d5624.css.map",
+    "main.1220e99a.js.map": "/aggu-site/static/js/main.1220e99a.js.map",
     "787.a3428db4.chunk.js.map": "/aggu-site/static/js/787.a3428db4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f064a25e.css",
-    "static/js/main.99c8e91a.js"
+    "static/css/main.bd3d5624.css",
+    "static/js/main.1220e99a.js"
   ]
 }
