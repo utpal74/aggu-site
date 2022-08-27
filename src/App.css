@@ -70,6 +70,12 @@ h3 + p {
   margin-bottom: 0;
 }
 
+.age {
+  width: max-content;
+  font-size: .65em;
+  font-weight: 700;
+}
+
 .card-container{
   padding: 0;
   margin: 0;
@@ -176,7 +182,7 @@ hr {
   }
 
   .top-seciton {
-    font-size: 1em;
+    font-size: .85em;
   }
 
   .profile-img {
