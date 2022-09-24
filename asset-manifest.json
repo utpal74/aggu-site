@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aggu-site/static/css/main.4d82df62.css",
-    "main.js": "/aggu-site/static/js/main.bdd668df.js",
+    "main.js": "/aggu-site/static/js/main.f57f5d53.js",
     "static/js/787.a3428db4.chunk.js": "/aggu-site/static/js/787.a3428db4.chunk.js",
-    "static/media/aggu-smiles.jpg": "/aggu-site/static/media/aggu-smiles.4464cac200818c1a73b7.jpg",
+    "static/media/aggu-cute.jpeg": "/aggu-site/static/media/aggu-cute.2a80f8110efd36df060e.jpeg",
     "index.html": "/aggu-site/index.html",
     "main.4d82df62.css.map": "/aggu-site/static/css/main.4d82df62.css.map",
-    "main.bdd668df.js.map": "/aggu-site/static/js/main.bdd668df.js.map",
+    "main.f57f5d53.js.map": "/aggu-site/static/js/main.f57f5d53.js.map",
     "787.a3428db4.chunk.js.map": "/aggu-site/static/js/787.a3428db4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d82df62.css",
-    "static/js/main.bdd668df.js"
+    "static/js/main.f57f5d53.js"
   ]
 }
