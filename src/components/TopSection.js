@@ -1,23 +1,13 @@
 
 import React from "react";
+import { isYearDiffZero, getMessageForSameYear, isMonthDiffZero, getYearlyData, getMonthlyData } from "../utils/Age";
 
-const agguSmile = require('../imgs/aggu-smiles.jpg')
+const agguSmile = require('../imgs/aggu-cute.jpeg')
 
 function getAgeInformation() {
-    const BIRTH_DATE = new Date(2022, 6, 16);
-    const TODAY = new Date()
-
-    const yearDiff = Math.abs(TODAY.getFullYear() - BIRTH_DATE.getFullYear())
-    const monthDiff = Math.abs(TODAY.getMonth() - BIRTH_DATE.getMonth())
-    const dayDiff = Math.abs(TODAY.getDate() - BIRTH_DATE.getDate())
-
-    if (yearDiff === 0) {
-        return `${monthDiff} month, ${dayDiff} days old`
-    } else if (monthDiff === 0) {
-        return `${dayDiff} days old`
-    } else {
-        return `${yearDiff} years, ${monthDiff} month old`
-    }
+    return isYearDiffZero() ? 
+            getMessageForSameYear() : 
+                    isMonthDiffZero() ? getYearlyData() : getMonthlyData();
 }
 
 export default function TopSection() {
